@@ -1,10 +1,7 @@
-# NO TOCAR / NOT MODIFIED ME ##
 CC=gcc
 FLAGS=-Wno-implicit-function-declaration
 CFLAGS=-I.
 ###############################
-
-# MODIFIED ME ##
 
 OBJ1 = scripter.o
 OBJ2 = mygrep.o
