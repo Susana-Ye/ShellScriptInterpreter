@@ -1,11 +1,11 @@
-<h1>🎮 Shell Script Interpreter [Python Project]</h1>
+<h1>🖥️ Scripter: Linux Shell Script Interpreter [C Project]</h1>
 
- ### [YouTube Playthrough Demonstration](https://youtu.be/jkXYtZbMatM)
+ ### [YouTube Demo & Output Samples]()
 
 <h2>📝 Description</h2>
-This project is a simplified recreation of the classic 1983 Mario Bros. arcade game, developed in Python using object-oriented programming. The game features 4 levels, each with a mix of 10 enemies and coins emerging from pipes. The player controls Mario, who must defeat all enemies in each stage to advance.
-
-The game includes platforming mechanics, enemy behavior, collision detection, and animations. Mario starts with 3 lives, and winning the game requires completing all levels without losing them. The code is structured into multiple classes (Mario, Enemy, Level, Floor, etc.), emphasizing modular design and real-time interaction handling.
+Scripter is a command interpreter written in C for Linux, designed to emulate core functionalities of a shell as part of an Operating Systems lab. It reads a script file line-by-line, interprets and executes each command using POSIX system calls. The project reinforces understanding of process management, file descriptor manipulation, piping, I/O redirection, and background execution.
+<br>
+The interpreter also supports an external command (mygrep), developed as a C program that mimics grep functionality, searching for strings within files.
 <br />
 
 
@@ -65,3 +65,4 @@ py main.py
 @@ text in purple (and bold)@@
 ```
 --!>
+
