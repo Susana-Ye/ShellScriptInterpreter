@@ -52,7 +52,7 @@ make all       # builds scripter and the external 'mygrep' command
 ```
 3. Execute with a script file:
 ```bash
-./scripter script.txt    # the first line of script.txt must be '## Script de SSOO'
+./scripter example_script.txt    # the first line of script.txt must be '## Script de SSOO'
 ```
 4. Clean binaries:
 ```bash
