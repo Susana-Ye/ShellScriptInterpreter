@@ -4,18 +4,19 @@ CFLAGS=-I.
 ###############################
 
 OBJ1 = scripter.o
-OBJ2 = mygrep.o
+OBJ2 = process_line.o
+OBJ3 = mygrep.o
 
 all: scripter mygrep
 
-%.o: %.c 
+%.o: %.c
 	$(CC) $(FLAGS) -c -o $@ $< $(CFLAGS)
 
-scripter: $(OBJ1)
-	$(CC) $(FLAGS) -L. -o $@ $< $(LIBS)
+scripter: $(OBJ1) $(OBJ2)
+	$(CC) $(FLAGS) -o $@ $^ $(LIBS)
 
-mygrep: $(OBJ2)
-	$(CC) $(FLAGS) -L. -o $@ $< $(LIBS)
+mygrep: $(OBJ3)
+	$(CC) $(FLAGS) -o $@ $^ $(LIBS)
 
 clean:
-	rm -f ./scripter.o ./mygrep.o ./scripter ./mygrep
+	rm -f *.o scripter mygrep

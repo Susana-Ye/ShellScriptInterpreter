@@ -1,6 +1,6 @@
 ## Script de SSOO
 echo a
-ls | grep f | grep 2 &
+ls | grep f | grep t &
 echo "b" 
 ls
 echo "ssoo,os" &
