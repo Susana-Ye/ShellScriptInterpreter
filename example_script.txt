@@ -1,0 +1,13 @@
+## Script de SSOO
+echo a
+ls | grep f | grep 2 &
+echo "b" 
+ls
+echo "ssoo,os" &
+cat file1.txt
+cat file2.txt
+ls -l
+cat noexiste.txt
+ls 
+
+
